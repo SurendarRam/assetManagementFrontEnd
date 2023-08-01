@@ -1,0 +1,11 @@
+.head{
+    align-items: center;  
+    color: white;
+    font-weight: bold;
+    background-color: #01579b;
+}
+.head .btn{
+    margin-left: 70%;
+    align-items:center ;
+    
+}

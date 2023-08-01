@@ -1,0 +1,14 @@
+.date-con{
+    background-color: white;
+    margin-top: 20px;
+    width: 90%;
+    justify-content: center;
+    margin-left: 5%;
+    height: 60px;
+    align-items: center;
+    
+}
+.date-h1{
+    font-size: large;
+    
+}

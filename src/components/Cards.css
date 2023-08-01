@@ -1,0 +1,27 @@
+.card-con{
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.container{
+    padding-top: 80px;
+    
+    
+}
+.card{
+    height:200px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.card-con .card .tit{
+    font-weight: bold;
+    
+}
+.tit{
+    font-weight: bolder;
+    font-size: large;
+}
