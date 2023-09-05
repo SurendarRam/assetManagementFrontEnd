@@ -1,15 +1,25 @@
-/* .stepperDiv{
-  width: 50%;
+/* .MuiStepper-vertical {
+  width: 100%;
 } */
 .content{
-  margin-left: 100px !important;
+  margin-left: 8% !important;
   /* margin-bottom: 7px; */
 }
-.step{
-  display: flex;
+.MuiStepConnector-root{
+  margin-left: 8% !important;
+}
+.stepperDiv{
+  /* display: flex;
   align-items: 'center';
-  justify-content: 'space-between';
-  width: '100%';
+  justify-content: 'center';
+  /* width: '100%';  */
+  /* background-color: black; */
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* display: flex;
+  align-items: end;
+  justify-content: center; */
 }
 .stepLabel {
   position: absolute;
@@ -18,9 +28,9 @@
 /* .content div{
   display: none;
 } */
-.MuiStepConnector-vertical{
-  margin-left: 7em !important;
 
+.MuiStepConnector-line{
+  margin-left: 12px;
 }
 .MuiStepIcon-root.MuiStepIcon-active{
   color: green!important;
