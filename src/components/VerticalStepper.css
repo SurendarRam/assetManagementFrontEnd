@@ -4,9 +4,12 @@
 .content{
   margin-left: 8% !important;
   /* margin-bottom: 7px; */
+  padding-left: 8% !important;
 }
 .MuiStepConnector-root{
   margin-left: 8% !important;
+  padding-left: 8% !important;
+
 }
 .stepperDiv{
   /* display: flex;
@@ -22,8 +25,7 @@
   justify-content: center; */
 }
 .stepLabel {
-  position: absolute;
-  margin-left: -90px;
+  margin-left: -200px;
 }
 /* .content div{
   display: none;

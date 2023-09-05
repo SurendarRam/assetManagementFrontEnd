@@ -117,8 +117,9 @@ const VerticalStepper = () => {
           return (
             <Step key={label} className='content' >
               
-              <span className="stepLabel">05-09-2023</span>
-            <StepLabel onClick={handleStep(index)}>{label}</StepLabel>
+              
+            <StepLabel onClick={handleStep(index)} >{label}<span className="stepLabel">05-09-2023</span></StepLabel>
+            
             
               <StepContent>
               <Typography>{getStepContent(index)}</Typography>
