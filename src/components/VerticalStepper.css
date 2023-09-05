@@ -1,0 +1,27 @@
+/* .stepperDiv{
+  width: 50%;
+} */
+.content{
+  margin-left: 100px !important;
+  /* margin-bottom: 7px; */
+}
+.step{
+  display: flex;
+  align-items: 'center';
+  justify-content: 'space-between';
+  width: '100%';
+}
+.stepLabel {
+  position: absolute;
+  margin-left: -90px;
+}
+/* .content div{
+  display: none;
+} */
+.MuiStepConnector-vertical{
+  margin-left: 7em !important;
+
+}
+.MuiStepIcon-root.MuiStepIcon-active{
+  color: green!important;
+}

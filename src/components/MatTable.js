@@ -32,6 +32,7 @@ import { id } from 'date-fns/locale';
 import DialogView from './dialog/DialogView';
 import DialogDelete from './dialog/DialogDelete';
 import { color, style } from '@mui/system';
+import { Button } from '@material-ui/core';
 
 
 const tableIcons = {
@@ -225,6 +226,9 @@ const [sourceData, setSourceData] = useState([]);
           }
       ]}
     />
+    <div className='detailsDiv'>
+      <Button className='detailsBtn' style={{backgroundColor:"#01579b",color:"white"}} href='/content/details'>Details</Button>
+    </div>
 
 <DialogEdit open={openEdit} handleClose={handleEditClose} objId={id} setData={setTemp} listData={listData}/>
 <DialogAdd open={openAdd} handleClose={handleAddClose } setData={setTemp}/>

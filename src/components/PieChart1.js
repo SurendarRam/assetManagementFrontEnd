@@ -9,6 +9,8 @@ import am4themes_animated from '@amcharts/amcharts4/themes/animated';
 const PieChart1 = ({ data }) => {
   useEffect(() => {
     // Create a chart instance
+    am4core.useTheme(am4themes_animated);
+    am4core.addLicense("CH180995353");
     const chart = am4core.create('chartdiv', am4charts.PieChart);
     //disable logo
     chart.config = {
@@ -24,16 +26,23 @@ const PieChart1 = ({ data }) => {
     series.dataFields.value = 'value';
     series.dataFields.category = 'category';
     series.labels.template.disabled = true;
-
+    series.innerRadius = am4core.percent(40);       //this is donut pie chart
     chart.radius = am4core.percent(95);
 
     // Add labels
-    series.labels.template.disabled = true;
     series.ticks.template.disabled = true;
 
     // Add a legend
     chart.legend = new am4charts.Legend();
     chart.legend.position = "right";
+
+    //3d///////
+    var rgm = new am4core.RadialGradientModifier();       
+     rgm.brightnesses.push(-0.8, -0.8, -0.2, 0.8, -0.5);        
+    series.slices.template.fillModifier = rgm;        
+    series.slices.template.strokeModifier = rgm;       
+    series.slices.template.strokeOpacity = 0.4;        
+    series.slices.template.strokeWidth = 0;
 
     // Return a cleanup function to destroy the chart when the component is unmounted
     return () => {

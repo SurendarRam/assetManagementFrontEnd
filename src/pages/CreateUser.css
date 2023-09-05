@@ -1,8 +1,7 @@
-
-.formss{  
+.forms{  
     background-color:white;
     width: 450px;
-    margin: 60px auto;
+    margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 30px;
     border-radius: 10px;
@@ -15,7 +14,18 @@ h1{
     font-size:larger;
     font-weight: bold;
 }
+.conLabel{
+    margin-left: 20px;
+    font-size:larger;
+    font-weight: bold;
+}
 .inputDiv{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.conInputDiv{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
@@ -24,8 +34,7 @@ h1{
 .input{
     width: 100%;
     border-radius: 5px;   
-    border: none;
-    
+    border: none;    
 }
 input:focus{
     border: none;
@@ -42,5 +51,4 @@ input:focus{
     height: 30px;
     border-radius: 5px;
     border: none;
-    margin-left: 5px;
 }

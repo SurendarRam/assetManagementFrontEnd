@@ -1,0 +1,12 @@
+#chartdiv {
+    width: 100%;
+    height: 98vh;
+    max-height:500px;
+  }
+  
+  .custom-node {
+    fill: #FFA500; /* Change the fill color */
+    stroke: #333;  /* Change the stroke color */
+    /* Add more custom styling properties as needed */
+  }
+  

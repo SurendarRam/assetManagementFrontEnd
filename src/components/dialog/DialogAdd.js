@@ -59,6 +59,7 @@ const DialogAdd = (props) => {
   }
 
   const handleSave=()=>{
+    console.log(selectedDate)
     const val = {
         name: name,
         type: type,

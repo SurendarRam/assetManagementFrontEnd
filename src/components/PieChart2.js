@@ -34,6 +34,13 @@ const PieChart2 = ({ data }) => {
     chart.legend = new am4charts.Legend();
     chart.legend.position = "right";
 
+    var rgm = new am4core.RadialGradientModifier();       
+     rgm.brightnesses.push(0, 0, 0, 0.8, -0.4);        
+    series.slices.template.fillModifier = rgm;        
+    series.slices.template.strokeModifier = rgm;       
+    series.slices.template.strokeOpacity = 0.4;        
+    series.slices.template.strokeWidth = 0;
+
     // Return a cleanup function to destroy the chart when the component is unmounted
     return () => {
       chart.dispose();

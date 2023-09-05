@@ -10,6 +10,7 @@ const PieChart3 = ({ data }) => {
   useEffect(() => {
     // Create a chart instance
     const chart = am4core.create('chartdiv3', am4charts.PieChart);
+    chart.hiddenState.properties.opacity = 0;
      //disable logo
      chart.config = {
         "logo": {
@@ -19,6 +20,9 @@ const PieChart3 = ({ data }) => {
 
     // Add data
     chart.data = data;
+    
+    chart.innerRadius = am4core.percent(30);
+    chart.depth = 120;
 
     // Create pie series
     const series = chart.series.push(new am4charts.PieSeries());
