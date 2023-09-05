@@ -56,7 +56,7 @@ function getStepContent(step) {
       return (
         <div style={{display:'flex',alignItems:'center'}}>
         <div>
-          <Typography >pipeline count: 3</Typography>
+          <Typography >pipeline counts: 3</Typography>
           <Typography>Job Count: 30</Typography>
           <Typography>BO Count: 30</Typography>
         </div>
