@@ -87,7 +87,7 @@ function getStepContent(step) {
         <div style={{display:'flex',alignItems:'center'}}>
         <div>
           <Typography >pipeline counts: 3</Typography>
-          <Typography>Job Count: 30</Typography>
+          <Typography>Job Counts: 30</Typography>
           <Typography>BO Count: 30</Typography>
         </div>
         <span style={{ borderLeft:' 1px solid grey',height: '50px',marginLeft:'2%',marginRight:'2%'}}></span>
